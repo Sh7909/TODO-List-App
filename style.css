@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+#header {
+    background-image: linear-gradient(to right, rgb(8, 179, 246), rgb(6, 133, 239), rgb(6, 126, 238));
+    width: 50rem;
+    height: 12rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+    margin-top: 12%;
+    margin-left: 27%;
+}
+
+#bottom {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 50rem;
+    height: 7rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-left: 27%;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+input {
+    width: 36rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border-color: white;
+}
+
+#addbtn {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border-color: white;
+    background-color: white;
+    margin: 1rem;
+}
+
+#addbtn:hover {
+    color: white;
+    background-color: rgb(79, 82, 92);
+    cursor: pointer;
+}
+#msg {
+    color: rgb(22, 97, 168);
+}
+#showanotherdiv{
+    border-radius:0.4rem;
+    background-color:rgb(79, 82, 92);
+    width: 50rem;
+    height:20rem;
+    color:white;
+    text-align:center;
+    padding-top:0.1rem;
+    margin-left: 27%;
+    font-size:2rem;
+    display:none;
+}
+#create{
+    list-style-type: none;
+    margin-left:1rem;
+    display:none;
+}
+#s:hover{
+    background-color:rgb(0, 132, 255);
+    color:white;
+}
+#c:hover{
+    background-color:rgb(0, 132, 255);
+    color:white;
+}
